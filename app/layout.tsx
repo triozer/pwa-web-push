@@ -26,13 +26,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="w-full h-full">
-      <head>
-        <link
-          rel="manifest"
-          href="/manifest.json"
-          crossOrigin="use-credentials"
-        />
-      </head>
       <body
         className={cn(
           inter.className,
